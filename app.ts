@@ -1,5 +1,7 @@
 import express, { Request, Response } from 'express';
-// to pass the errors to the error handler automatically without the need to use next() with every route
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const app = express();
 

@@ -15,9 +15,11 @@ To get started, clone this repo and open your terminal at the project root.
 
 and then in your terminal run:
 1. `npm install`
+2. `cp .env.example .env`
 2. `npm start`
 
 and then head to your browser at `localhost:3000` and it should be working.
 
-Also, to run your tests you can simply run
-`npm test`
+#### Notes
+1. To run your tests you can simply run `npm test`.
+2. You can modify your environment variables through the `.env` file.
