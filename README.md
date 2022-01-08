@@ -1,5 +1,3 @@
-# Storefront Backend Project
-
 ## Getting Started
 
 This repo contains a basic Node and Express app in **Typescript**  to get you started in constructing an API.
