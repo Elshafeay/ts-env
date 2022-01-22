@@ -9,7 +9,7 @@
     "lint": "eslint . --ext .ts",
     "prettier": "eslint . --ext .ts --fix",
     "tsc": "tsc",
-    "test": "jasmine-ts --random=false"
+    "test": "jasmine-ts"
   },
   "author": "Elshafeay",
   "license": "ISC",

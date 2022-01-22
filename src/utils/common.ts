@@ -1,5 +1,5 @@
-function sum(x: number, y: number){
-  return x+y;
+function calcAverage(){
+  // write your code here
 }
 
-export { sum };
+export { calcAverage };
