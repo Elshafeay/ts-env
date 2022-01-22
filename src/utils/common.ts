@@ -10,15 +10,14 @@ export const testFS = async () =>{
   });
 };
 
-
 export const calcAverage = (...numbers: number[]) => {
   if(numbers.length === 0){
     return 0;
   }
 
   const total = numbers.reduce((curr, prev) => {
-    return curr+prev
+    return curr+prev;
   }, 0);
 
   return total/numbers.length;
-} 
+};
