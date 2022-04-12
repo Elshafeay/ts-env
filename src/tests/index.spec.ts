@@ -1,13 +1,12 @@
-import app from '../../app';
-import supertest from 'supertest';
+import { calcAverage } from '../utils/common';
 
-describe('Testing the home page endpoint', function() {
+describe('Testing the calc average function', function() {
 
-  it('returns 200', async function() {
-    // status code should be 200 `OK`
-    await supertest(app)
-      .get('/')
-      .expect(200);
+  it('returns the average for group of numbers', async function() {
+    expect(calcAverage(1, 2, 3)).toEqual(2);
+    expect(calcAverage(3, 4, 5, 6)).toEqual(4.5);
+    expect(calcAverage(-1, 2, 4, -2)).toEqual(1.5);
+    expect(calcAverage()).toEqual(0);
   });
 
 });
